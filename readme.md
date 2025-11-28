@@ -71,6 +71,7 @@ All log calls are discarded with near-zero overhead.
 - API-key authentication
 - A included `RemoteLogCollector` function can be used on a remote host
   - acknowledges collected entries by returning the UUID
+  - A local Logger (FileLogger, CliLogger, NullLogger etc) can injectet on remote host to show logs from multi remotes
 - Exposes metrics: number of trace, info, warn, and err entries
 
 ### v1.3.0 — Remote Cluster Log
