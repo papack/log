@@ -1,0 +1,24 @@
+{
+  "name": "@papack/log",
+  "description": "A simple async logger with typed log levels",
+  "version": "1.0.0",
+  "author": "Matthias Steiner",
+  "repository": "github:papack/storage",
+  "homepage": "https://github.com/papack/log",
+  "module": "dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.mts",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.10.1",
+    "tsdown": "^0.16.8"
+  }
+}

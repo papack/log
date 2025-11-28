@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "module": "esnext",
+    "target": "es2022",
+    "moduleResolution": "bundler",
+    "isolatedModules": false,
+    "esModuleInterop": true
+  },
+  "include": ["core"],
+  "exclude": ["core/**/*.test.ts"]
+}
